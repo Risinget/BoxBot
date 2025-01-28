@@ -242,7 +242,7 @@ function createBot() {
       );
     }
 
-    bot.chat("/login [OCULTO]");
+    bot.chat("/login yourpasshere");
   });
 
   bot.on("kicked", async (reason, loggedIn) => {
@@ -306,7 +306,7 @@ function createBot2(){
       );
     }
 
-    bot2.chat("/login [OCULTO]");
+    bot2.chat("/login yourpasshere");
   });
 
   bot2.on("kicked", async (reason, loggedIn) => {
